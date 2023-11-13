@@ -2,7 +2,7 @@
 
 ## About app
 
-Meet my stylish calculator app - crunch numbers with flair! Our sleek design and easy-to-use interface make calculations a breeze. Beauty and functionality, all in one app!
+Meet my stylish calculator app - crunch numbers with flair! The sleek design and easy-to-use interface make calculations a breeze. Beauty and functionality, all in one app!
 
 ## Used technology
 
