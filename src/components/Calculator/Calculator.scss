@@ -1,0 +1,87 @@
+@import "../../_variables.scss";
+
+.main {
+    margin: auto;
+}
+h1 {
+    color: $text-white;
+}
+
+.input {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 1rem;
+    background-color: $togglebg;
+
+    .break {
+        flex-basis: 100%;
+        width: 0px; 
+        height: 0px; 
+        overflow: hidden;
+      }
+    
+    .num {
+        @include buttonreset;
+        background-color: $keybg-orange;
+        color: $text-blue;
+        font-size: 2rem;
+        border-radius: 0.5rem;
+        border-bottom: 4px solid $keyshadow-orange;
+        width: 5rem;
+        height: 3rem;
+    }
+
+    .num:hover {
+        filter: brightness(150%)
+    }
+
+    .del {
+        @include buttonreset;
+        background-color: $keybg-darkblue;
+        color: $text-white;
+        font-size: 2rem;
+        border-radius: 0.5rem;
+        border-bottom: 4px solid $keyshadow-darkblue;
+        height: 3rem;
+        width: 5rem;
+    }
+
+    .del:hover {
+        filter: brightness(150%)
+    }
+
+    .reset {
+        @include buttonreset;
+        background-color: $keybg-darkblue;
+        color: $text-white;
+        font-size: 2rem;
+        border-radius: 0.5rem;
+        border-bottom: 4px solid $keyshadow-darkblue;
+        height: 3rem;
+        width: 10rem;
+    }
+
+    .reset:hover {
+        filter: brightness(150%)
+    }
+
+    .enter {
+        @include buttonreset;
+        background-color: $keybg-red;
+        color: $text-white;
+        font-size: 2rem;
+        border-radius: 0.5rem;
+        border-bottom: 4px solid $keyshadow-red;
+        height: 3rem;
+        width: 10rem;
+
+    }
+
+    .enter:hover {
+        filter: brightness(150%)
+        
+    }
+}
