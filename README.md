@@ -13,6 +13,6 @@ Meet my stylish calculator app - crunch numbers with flair! Our sleek design and
 
 ## Features
 
--   Engaging user interface and visually appealing design.
--   Effortless navigation for seamless calculations.
--   Sleek, modern aesthetic that adds a touch of style to your math tasks.
+- Engaging user interface and visually appealing design.
+- Effortless navigation for seamless calculations.
+- Sleek, modern aesthetic that adds a touch of style to your math tasks.
