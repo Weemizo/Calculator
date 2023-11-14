@@ -2,6 +2,7 @@
 
 .main {
   margin: auto;
+  width: 100vh;
 }
 h1 {
   color: $text-white;
@@ -15,6 +16,11 @@ h1 {
   align-content: center;
   gap: 1rem;
   background-color: $togglebg;
+  width: 40vh;
+  margin: auto;
+  padding: 1rem;
+  border-radius: 1rem;
+  
 
   .break {
     flex-basis: 100%;
@@ -32,54 +38,58 @@ h1 {
     border-bottom: 4px solid $keyshadow-orange;
     width: 5rem;
     height: 3rem;
+    padding: 0.25rem;
   }
 
   .num:hover {
-    filter: brightness(150%);
+    filter: brightness(120%);
   }
 
   .del {
     @include buttonreset;
     background-color: $keybg-darkblue;
     color: $text-white;
-    font-size: 2rem;
+    font-size: 1.5rem;
     border-radius: 0.5rem;
     border-bottom: 4px solid $keyshadow-darkblue;
     height: 3rem;
     width: 5rem;
+    padding: 0.25rem;
   }
 
   .del:hover {
-    filter: brightness(150%);
+    filter: brightness(120%);
   }
 
   .reset {
     @include buttonreset;
     background-color: $keybg-darkblue;
     color: $text-white;
-    font-size: 2rem;
+    font-size: 1.5rem;
     border-radius: 0.5rem;
     border-bottom: 4px solid $keyshadow-darkblue;
     height: 3rem;
     width: 10rem;
+    padding: 0.25rem;
   }
 
   .reset:hover {
-    filter: brightness(150%);
+    filter: brightness(120%);
   }
 
   .enter {
     @include buttonreset;
     background-color: $keybg-red;
     color: $text-white;
-    font-size: 2rem;
+    font-size: 1.5rem;
     border-radius: 0.5rem;
     border-bottom: 4px solid $keyshadow-red;
     height: 3rem;
     width: 10rem;
+    padding: 0.25rem;
   }
 
   .enter:hover {
-    filter: brightness(150%);
+    filter: brightness(120%);
   }
 }
