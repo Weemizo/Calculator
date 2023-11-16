@@ -6,6 +6,21 @@
 }
 h1 {
   color: $text-white;
+  margin: auto;
+  text-align: center;
+}
+
+.result {
+  background-color: $screenbg;
+  color: $text-white;
+  width: 40vh;
+  height: 10vh;
+  margin: auto;
+  border-radius: 1rem;
+  padding: 1rem;
+  text-align: right;
+  font-size: 2rem;
+  margin-bottom: 1rem;
 }
 
 .input {
