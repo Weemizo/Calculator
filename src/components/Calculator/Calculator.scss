@@ -35,7 +35,6 @@ h1 {
   margin: auto;
   padding: 1rem;
   border-radius: 1rem;
-  
 
   .break {
     flex-basis: 100%;
@@ -60,6 +59,10 @@ h1 {
     filter: brightness(120%);
   }
 
+  .num:active {
+    transform: translateY(0.25rem);
+  }
+
   .del {
     @include buttonreset;
     background-color: $keybg-darkblue;
@@ -74,6 +77,10 @@ h1 {
 
   .del:hover {
     filter: brightness(120%);
+  }
+
+  .del:active {
+    transform: translateY(0.25rem);
   }
 
   .reset {
@@ -92,6 +99,10 @@ h1 {
     filter: brightness(120%);
   }
 
+  .reset:active {
+    transform: translateY(0.25rem);
+  }
+
   .enter {
     @include buttonreset;
     background-color: $keybg-red;
@@ -107,4 +118,9 @@ h1 {
   .enter:hover {
     filter: brightness(120%);
   }
+
+  .enter:active {
+    transform: translateY(0.25rem);
+  }
+
 }
