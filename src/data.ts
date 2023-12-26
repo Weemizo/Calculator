@@ -77,7 +77,7 @@ export const buttonList = [
   {
     id: 16,
     class: "num",
-    text: "x",
+    text: "*",
   },
   {
     id: 17,
@@ -86,7 +86,7 @@ export const buttonList = [
   },
   {
     id: 18,
-    class: "enter",
+    class: "equal",
     text: "=",
   },
 ];
