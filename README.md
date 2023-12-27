@@ -1,9 +1,5 @@
 # Basic Calculator App
 
-## About app
-
-Meet my stylish calculator app - crunch numbers with flair! The sleek design and easy-to-use interface make calculations a breeze. Beauty and functionality, all in one app!
-
 ## Used technology
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
