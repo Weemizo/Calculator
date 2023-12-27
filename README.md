@@ -16,3 +16,7 @@ Meet my stylish calculator app - crunch numbers with flair! The sleek design and
 - Engaging user interface and visually appealing design.
 - Effortless navigation for seamless calculations.
 - Sleek, modern aesthetic that adds a touch of style to your math tasks.
+
+## Other
+
+Hooks used: useState

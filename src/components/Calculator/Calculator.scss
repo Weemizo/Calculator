@@ -3,6 +3,7 @@
 .main {
   margin: auto;
   width: 100vh;
+  height: 100vh;
 }
 h1 {
   color: $text-white;
@@ -35,13 +36,6 @@ h1 {
   margin: auto;
   padding: 1rem;
   border-radius: 1rem;
-
-  .break {
-    flex-basis: 100%;
-    width: 0px;
-    height: 0px;
-    overflow: hidden;
-  }
 
   .num {
     @include buttonreset;
@@ -122,5 +116,4 @@ h1 {
   .equal:active {
     transform: translateY(0.25rem);
   }
-
 }
